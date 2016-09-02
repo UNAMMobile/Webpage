@@ -1,0 +1,85 @@
+body {
+	margin: 0;	
+	padding-top: 66px;
+}
+
+.logotipo img {
+	width: 88px;
+}
+
+.logotipo {
+	margin: 5px 26px 4px 19px;
+}
+
+.menu ul, .header, .menu{
+	display: flex;
+}
+.menu ul{
+	justify-content: space-between;
+	list-style-type: none;
+	width: 450px;
+	padding-left: 0;
+	margin: 20px 30px 9px 0;
+	font-size: 18px;
+}
+
+
+.menu a, .button{
+	color: white;
+	text-decoration: none;	
+	font-family: 'Lato', sans-serif;	
+}
+
+.header {
+	justify-content: space-around;
+	background: #273A67;
+	color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.button {
+	border-width: 0 0 3px 0;	
+	border-color: #FF4842;	
+	border-radius: 3px;	
+	background: #ff812f;	
+	width: 110px;
+   margin: 10px;
+   font-size: 14px;    
+}
+
+.timeline {
+	padding:30px 0;
+}
+
+.form-upload span, .form-upload button {
+  color: white;
+}
+.form-upload .fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+.form-upload .fileUpload input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.avatar {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 12px;
+}
